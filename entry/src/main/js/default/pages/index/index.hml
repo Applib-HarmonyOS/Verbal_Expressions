@@ -2,7 +2,7 @@
     <div id="card">
         <text class="{{ disappear }}" if="{{ !validated }}"></text>
         <text class="{{ disappear }}" if="{{ !validated }}">Password Validation</text>
-        <input class="{{ disappear }}" if="{{ !validated }}" value="{{ pwd }}" style="width: 80%; font-size: 20px; margin-top: 50px; margin-bottom: 50px; align-self: center;" type="password"></input>
+        <input class="{{ disappear }}" if="{{ !validated }}" value="{{ p }}" style="width: 80%; font-size: 20px; margin-top: 50px; margin-bottom: 50px; align-self: center;" type="password"></input>
         <button class="{{ disappear }}" if="{{ !validated }}" onclick="validatePassword">Submit</button>
         <text class="{{ disappear }}" if="{{ !validated }}" style="font-size: 24px; transform: translateY(-150%);">Submit</text>
 
