@@ -1,0 +1,77 @@
+#page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-image:url("https://cdn.dribbble.com/users/247458/screenshots/5083720/wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+#card {
+    width: 90%;
+    height: 40%;
+    box-shadow: 0px 8px 32px 0px #1f2687;
+    backdrop-filter: blur( 8px );
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    animation-duration: 2s;
+}
+
+button {
+    transition: all 100ms;
+    text-align:center;
+    padding:14px 20px 14px 20px;
+    border-radius: 6px;
+    margin-top:10px;
+    font-size: 24px;
+    box-shadow: 0px 8px 32px 0px #1f2687;
+    background-color: white;
+    text-color: black;
+    opacity: 0.3;
+    backdrop-filter: blur( 4px );
+}
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+.fadeOut {
+    animation-duration: 2s;
+    animation-name: fadeOut;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadeIn {
+    animation-duration: 2s;
+    animation-name: fadeIn;
+}
+
+#validate {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 8px 32px 0px #1f2687;
+    backdrop-filter: blur( 8px );
+    border-radius: 20px;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    animation-duration: 2s;
+}
+

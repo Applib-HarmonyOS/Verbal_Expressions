@@ -1,0 +1,18 @@
+[
+    {
+        "hapPath": "entry-debug-rich-unsigned.hap",
+        "device": "phone"
+    },
+    {
+        "hapPath": "entry-debug-rich-unsigned.hap",
+        "device": "tablet"
+    },
+    {
+        "hapPath": "entry-debug-rich-unsigned.hap",
+        "device": "tv"
+    },
+    {
+        "hapPath": "entry-debug-rich-unsigned.hap",
+        "device": "wearable"
+    }
+]

@@ -1,0 +1,27 @@
+<div id="page">
+    <div id="card">
+        <text class="{{ disappear }}" if="{{ !validated }}"></text>
+        <text class="{{ disappear }}" if="{{ !validated }}">Password Validation</text>
+        <input class="{{ disappear }}" if="{{ !validated }}" value="{{ password }}" style="width: 80%; font-size: 20px; margin-top: 50px; margin-bottom: 50px; align-self: center;" type="password"></input>
+        <button class="{{ disappear }}" if="{{ !validated }}" onclick="validatePassword">Submit</button>
+        <text class="{{ disappear }}" if="{{ !validated }}" style="font-size: 24px; transform: translateY(-150%);">Submit</text>
+
+        <text class="{{ disappear }}" if="{{ manipulated }}">Substring Manipulation</text>
+        <button class="{{ disappear }}" if="{{ manipulated }}" onclick="substringManipulation">Transform</button>
+        <text class="{{ disappear }}" if="{{ manipulated }}" style="font-size: 24px; transform: translateY(-150%);">Transform</text>
+        <text class="{{ disappear }}" if="{{ manipulated }}">Movie List:</text>
+        <text class="{{ disappear }}" if="{{ manipulated }}" for="{{movie in movies}}">{{ movie }}</text>
+
+        <text class="{{ disappear }}" if="{{ sanitized }}">Sanitization Extraction Matching</text>
+        <input class="{{ disappear }}" if="{{ sanitized }}" value="{{ username }}" style="width: 80%; font-size: 20px; margin-top: 50px; margin-bottom: 50px; align-self: center;" type="text"></input>
+        <button class="{{ disappear }}" if="{{ sanitized }}" onclick="fieldSanitization">Submit</button>
+        <text class="{{ disappear }}" if="{{ sanitized }}" style="font-size: 24px; transform: translateY(-150%);">Submit</text>
+
+        <text class="{{ disappear }}" if="{{ inserted }}">Dynamic Insertion with JSX (Console)</text>
+        <button class="{{ disappear }}" if="{{ inserted }}" onclick="dynamicInsertion">Insert</button>
+        <text class="{{ disappear }}" if="{{ inserted }}" style="font-size: 24px; transform: translateY(-150%);">Insert</text>
+    </div>
+    <div style="margin-top: 20px; font-size: 22px;">
+        <input checked="false" type="checkbox" onchange="changeChecked"/><text>Move On?</text>
+    </div>
+</div>
