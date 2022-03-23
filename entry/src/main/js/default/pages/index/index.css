@@ -36,7 +36,7 @@ button {
     font-size: 24px;
     box-shadow: 0px 8px 32px 0px #1f2687;
     background-color: white;
-    text-color: black;
+    color: black;
     opacity: 0.3;
     backdrop-filter: blur( 4px );
 }
