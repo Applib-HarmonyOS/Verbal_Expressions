@@ -7,7 +7,7 @@ export default {
     data: {
         title: "",
         jsx: "",
-        password: "aAa_2AA",
+        pwd: "aAa_2AA",
         next: false,
         data: [],
         disappear: "",
@@ -78,7 +78,7 @@ export default {
         }
         else {
             prompt.showToast({
-                message: regex.toRegExp().test(this.password) ? 'Correct' : 'Incorrect',
+                message: regex.toRegExp().test(this.pwd) ? 'Correct' : 'Incorrect',
                 duration: 5000,
             })
         }
