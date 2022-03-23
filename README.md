@@ -10,12 +10,20 @@ This modified and updated utility library is now completely ready for tackling c
 
 ## Installation Instructions
 
-    npm install https://github.com/holy-script/The-boys
+    npm install https://github.com/holy-script/Verbal_Expressions
 
 #### Or
 
-    npm install https://github.com/applibgroup/The-boys
+    npm install https://github.com/applibgroup/Verbal_Expressions
+    
+## After Installation, For Local Demonstration, Run
 
+    npm install
+    
+#### Then
+
+    npx json-server --watch db.json
+    
 ## Change Log
 
 * A complete overhaul of the library structure to support working imports in HMOS
