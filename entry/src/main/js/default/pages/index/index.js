@@ -196,7 +196,7 @@ export default {
         console.log(jsx)
 
         regex = VerEx()
-            .positiveLookBehind(VerEx().add('<body').anything().add('>'))
+            .positiveLookAhead(VerEx().add('</body>'))
 
         setTimeout(() => {
             console.log(jsx.replace(regex.toRegExp(), `<h1>Data Pulled from API: ${this.username}</h1>`))
