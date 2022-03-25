@@ -1,4 +1,4 @@
-#page {
+.page {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +13,7 @@
     padding: 0;
 }
 
-#card {
+.card {
     width: 90%;
     height: 40%;
     box-shadow: 0px 8px 32px 0px #1f2687;
@@ -27,7 +27,7 @@
     animation-duration: 2s;
 }
 
-button {
+.btn {
     transition: all 100ms;
     text-align:center;
     padding:14px 20px 14px 20px;
@@ -60,18 +60,3 @@ button {
     animation-duration: 2s;
     animation-name: fadeIn;
 }
-
-#validate {
-    width: 100%;
-    height: 100%;
-    box-shadow: 0px 8px 32px 0px #1f2687;
-    backdrop-filter: blur( 8px );
-    border-radius: 20px;
-    display: flex;
-    flex-direction:column;
-    text-align: center;
-    align-items: center;
-    justify-content:center;
-    animation-duration: 2s;
-}
-
